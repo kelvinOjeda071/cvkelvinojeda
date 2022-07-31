@@ -22,7 +22,7 @@
                     <h4 class="lead text-uppercase text-white-50 mb-4 text-center">Estudiante de Ingeniería en Software
                     </h4>
                     <div>
-                        <h5 class="text-uppercase bg-white text-dark py-2 rounded-pill">
+                        <h5 class="text-uppercase bg-white text-dark py-2 rounded-pill img-english">
                             Datos personales
                         </h5>
                         <ul class="list-unstyled text-white-50 ml-5 py-2 text-left">
@@ -42,26 +42,28 @@
                         </ul>
                     </div>
                     <div>
-                        <h5 class="text-uppercase bg-white text-dark py-2 rounded-pill">
+                        <h5 class="text-uppercase bg-white text-dark py-2 rounded-pill img-english">
                             contacto
                         </h5>
                         <ul class="list-unstyled text-white-50 ml-5 py-2 text-left">
-                            <li class="list-item">
-                                <i class="fa-brands fa-whatsapp mx-4"></i> 0999790960
+                            <li class="list-item " onclick="myPhone()">
+                                <a href="" class=" text-decoration-none text-white-50"><i
+                                            class="fa-brands fa-whatsapp mx-4"></i> 0999790960</a>
                             </li>
                             <li class="list-item">
-                                <i class="fas fa-envelope-open mx-4"></i> kelvin.ojeda@epn.edu.ec
+                                <a href="mailto:kelvin.ojeda@epn.edu.ec" class="text-decoration-none text-white-50"><i
+                                            class="fas fa-envelope-open mx-4"></i> kelvin.ojeda@epn.edu.ec</a>
                             </li>
-                            <li class="list-item">
+                            <li class="list-item" onclick="myInst()">
                                 <i class="fa-brands fa-instagram mx-4"></i>
-                                <a href="https://www.instagram.com/kevinojeda01/" class="text-decoration-none text-white-50">KelvinOjeda01</a>
+                                <a href="" class="text-decoration-none text-white-50">KelvinOjeda01</a>
                             </li>
-                            <li class="list-item">
+                            <li class="list-item" onclick="myFace()">
                                 <i class="fa-brands fa-facebook mx-4"></i>
-                                <a href="https://www.facebook.com/profile.php?id=100072561631108" class="text-decoration-none text-white-50">Kelvin Ojeda Quiroz</a>
+                                <a href="" class="text-decoration-none text-white-50">Kelvin Ojeda Quiroz</a>
                             </li>
-                            <li class="list-item">
-                                <i class="fa-brands fa-github mx-4"></i> <a href="https://github.com/kelvinOjeda071?tab=repositories list-unstyled" class="text-white-50 text-decoration-none">kelvinOjeda071</a>
+                            <li class="list-item" onclick="myGit()">
+                                <i class="fa-brands fa-github mx-4"></i> <a href="" class="text-white-50 text-decoration-none">kelvinOjeda071</a>
                             </li>
                             <li class="list-item">
                                 <i class="fas fa-map-marker-alt mx-4"></i> Av. Las Palmas y Av. Ficus, Quito, Ecuador
@@ -70,7 +72,7 @@
                         </ul>
                     </div>
                     <div>
-                        <h5 class="text-uppercase bg-white text-dark py-2 rounded-pill">
+                        <h5 class="text-uppercase bg-white text-dark py-2 rounded-pill img-english">
                             Aptitudes
                         </h5>
 
@@ -91,7 +93,7 @@
                     </div>
 
                     <div>
-                        <h5 class="text-uppercase bg-white text-dark py-2 rounded-pill ">
+                        <h5 class="text-uppercase bg-white text-dark py-2 rounded-pill img-english">
                             Educación
                         </h5>
                         <ul class="list text-white-50 ml-3 py-2 list-unstyled">
@@ -111,7 +113,11 @@
             <div class="col-lg-8 bg-ligth text-dark py-4 px-5 ">
 
                 <div class="header-right text-justify ">
-                    <h4 class="text-uppercase ">
+                    <div class="d-flex justify-content-end mb-4" onclick="printCv()">
+                        <a href="" class="text-decoration-none rounded-pill bg-dark text-white px-3  py-2 btn-print"><i
+                                    class="fa-solid fa-print mx-2"></i>Imprimir</a>
+                    </div>
+                    <h4 class="text-uppercase img-english">
                         resumen profesional
                     </h4>
                     <p class="text-justify mb-4">
@@ -120,7 +126,7 @@
                         afianzan el desarrollo de aplicaciones web y para entornos de escritorio.
                     </p>
                     <hr>
-                    <h4 class=" text-uppercase ">
+                    <h4 class=" text-uppercase img-english">
                         FORMACIÓN
                     </h4>
                     <p>
@@ -135,7 +141,7 @@
                         </ul>
                     </p>
                     <hr>
-                    <h4 class=" text-uppercase ">
+                    <h4 class=" text-uppercase img-english">
                         HISTORIAL LABORAL
                     </h4>
                     <p class=" text-justify ">
@@ -153,7 +159,7 @@
                         </ul>
                     </p>
                     <hr>
-                    <h4 class=" text-uppercase ">
+                    <h4 class=" text-uppercase img-english">
                         Diplomas
                     </h4>
                     <p class=" text-justify ">
@@ -168,14 +174,15 @@
                         </ul>
                     </p>
                     <hr>
-                    <h4 class=" text-uppercase ">
+                    <h4 class=" text-uppercase img-english">
                         Idiomas
                     </h4>
                     <p class=" text-justify ">
                         Certificado de Inglés en el Centro de Ecuación Continuo (CEC):
                         <ul class=" list text-dark-50 ml-5 py-2 mb-4 ">
-                            <li class=" list-item ">
-                                <a href=" https://epnecuador-my.sharepoint.com/:b:/g/personal/kelvin_ojeda_epn_edu_ec/EbIpiqHvot5AmUFY-wFstIwB2S4ak14u7nB7fvJc-_voQA?e=tNEWZt " class=" text-dark text-decoration-none ">Academic One</a>
+                            <li class=" list-item " onclick="myEnglishLevel()">
+                                <a href="" class=" text-dark text-decoration-none ">Academic One <i
+                                        class="fa-solid fa-print mx-2"></i></a>
                             </li>
                         </ul>
                         <div class="view overlay">
@@ -184,10 +191,7 @@
                             </div>
                         </div>
                     </p>
-                    <div class="d-flex justify-content-center mt-3">
-                        <a href="docs/CVKelvinOjedaQuiroz.pdf" class="text-decoration-none rounded-pill bg-dark text-white px-3  py-2 btn-print"><i
-                                    class="fa-solid fa-print mx-2"></i>Imprimir</a>
-                    </div>
+
 
 
 
@@ -201,6 +205,7 @@
     <!-- JavaScript Bundle with Popper -->
     <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js " integrity=" sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa " crossorigin=" anonymous "></script>
     <script src=" https://kit.fontawesome.com/1dcb9ecca7.js " crossorigin=" anonymous "></script>
+    <script src="script/main.js"></script>
 </body>
 
 </html>
