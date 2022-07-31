@@ -14,3 +14,11 @@ h4,
 h5 {
     font-family: "Roboto", sans-serif;
 }
+
+.btn-print:hover {
+    transform: scale(1.25);
+}
+
+.img-english:hover {
+    transform: scale(1.05);
+}
