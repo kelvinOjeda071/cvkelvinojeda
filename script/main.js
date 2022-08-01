@@ -15,7 +15,7 @@ function myGit() {
 }
 
 function myEnglishLevel() {
-    window.open("https://epnecuador-my.sharepoint.com/:b:/g/personal/kelvin_ojeda_epn_edu_ec/EbIpiqHvot5AmUFY-wFstIwB2S4ak14u7nB7fvJc-_voQA?e=tNEWZt");
+    window.open("https://kelvinojeda071.github.io/cvkelvinojeda/docs/AcademicOne.pdf");
 }
 
 function printCv() {
