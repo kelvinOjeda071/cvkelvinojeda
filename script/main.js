@@ -21,3 +21,15 @@ function myEnglishLevel() {
 function printCv() {
     window.open("https://kelvinojeda071.github.io/cvkelvinojeda/docs/CVKelvinOjedaQuiroz.pdf");
 }
+
+function myCoursePacket() {
+    window.open("https://kelvinojeda071.github.io/cvkelvinojeda/docs/KelvinOjeda-IntroductionToPackerTracer.pdf");
+}
+
+function myCourseNetwork() {
+    window.open("https://kelvinojeda071.github.io/cvkelvinojeda/docs/KelvinOjeda-NetworkingEssential.pdf");
+}
+
+function myCourseCibers() {
+    window.open("https://kelvinojeda071.github.io/cvkelvinojeda/docs/KelvinOjeda-IntroductionToCibersecurity.pdf");
+}
