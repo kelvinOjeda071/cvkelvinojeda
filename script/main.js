@@ -30,6 +30,6 @@ function myCourseNetwork() {
     window.open("https://kelvinojeda071.github.io/cvkelvinojeda/docs/KelvinOjeda-NetworkingEssential.pdf");
 }
 
-function myCourseCibers() {
+function myCibersCourse() {
     window.open("https://kelvinojeda071.github.io/cvkelvinojeda/docs/KelvinOjeda-IntroductionToCibersecurity.pdf");
 }

@@ -36,7 +36,7 @@
                                 <span class="fw-bold">Estado civil: </span><span>Soltero</span>
                             </li>
                             <li class="list-item">
-                                <span class="fw-bold">Edad: </span><span>20 Años</span>
+                                <span class="fw-bold">Edad: </span><span id="age"></span> Años
                             </li>
                             <li class="list-item">
                                 <span class="fw-bold">Fecha de nacimiento: </span><span>20 de Diciembre del
@@ -177,7 +177,7 @@
                                 <a href="" class=" text-dark text-decoration-none ">Networking Essentials <i
                                         class="fa-solid fa-print mx-2"></i></a>
                             </li>
-                            <li class=" list-item my-2 " onclick="myCourseCibers()">
+                            <li class=" list-item my-2 " onclick="myCibersCourse()">
                                 <a href="" class=" text-dark text-decoration-none ">Introducción a la Seguridad
                                     Cibernética <i class="fa-solid fa-print mx-2"></i></a>
                             </li>
@@ -210,6 +210,24 @@
             </div>
         </div>
     </div>
+    <!-- Calculate age -->
+    <script>
+        // calculate my age with the help of the date of birth
+        function myAge() {
+            var today = new Date();
+            var birthDate = new Date(2001, 12, 20);
+            var age = today.getFullYear() - birthDate.getFullYear();
+            var m = today.getMonth() - birthDate.getMonth();
+            if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
+                age--;
+            }
+            document.getElementById("age").innerHTML = age;
+        }
+
+        window.addEventListener("load", function() {
+            myAge();
+        });
+    </script>
 
 
     <!-- JavaScript Bundle with Popper -->
