@@ -11,7 +11,7 @@ function myFace() {
 }
 
 function myGit() {
-    window.open("https://github.com/kelvinOjeda071?tab=repositories");
+    window.open("https://github.com/kelvinOjeda071");
 }
 
 function myEnglishLevel() {
